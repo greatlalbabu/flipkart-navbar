@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+body{
+    background-color: rgb(240, 238, 235);
+}
+
+header{
+    background-color: white;
+    height: 60px;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 1248px;
+    margin: 0, auto;
+}
+
+header .navbar .logo{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header .search{
+height: 100%;
+display:flex;
+align-items: center;
+margin-left: 12px;
+display: flex;
+
+}
+
+header .search .search-box  {
+    display: flex;
+    width: 540px;
+    height: 36px;
+    background-color:white;
+    border-radius: 0px;
+    box-shadow: 2px black;
+     
+     }
+
+     
+
+header .search .search-box input  {
+        width: 540px;
+        height: 36px;
+        background-color:rgb(210, 230, 226);
+        border-radius: 2px;
+        outline: none;
+        box-shadow: 1px black;
+        border: none;
+        padding: 15px;
+ }
+
+ header .search .search-box  i  {
+    width: 20px;
+    height: 36px;
+    background-color:rgb(210, 230, 226);
+    /* border-radius: 2px; */
+    outline: none;
+    box-shadow: 1px black;
+    border: none;
+    padding: 5px;
+    z-index: 1;
+    color: rgb(148, 144, 144);
+    
+}
+
+
+
+header .login{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color:black;
+    line-height: 24px;
+}
+
+header .cart{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    color:black;
+}
+
+header .seller{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+body .section-1{
+
+    display:flex;
+    margin: 10px 12px;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 0.8;
+    height: 130px;
+    
+}
+
+.section-1-items{
+    display:flex;
+    height: 100%;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+    flex-direction: column;
+    margin: 8px;
+    padding: 4px 4px 4px 4px;
+    
+}
+
+#dropdown{
+    border: 0;
+}
+
+select:hover{
+    color: #2874f0;
+    rotate: -180deg;
+    transition: 0.3s ease-in-out;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
